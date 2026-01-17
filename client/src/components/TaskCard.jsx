@@ -49,9 +49,9 @@ export default function TaskCard({ task, onEdit, isSelected }) {
       </div>
 
       <div className="flex-1 min-w-0 py-2">
-        <h3 className="font-semibold text-[1.25rem] text-gray-900 truncate">
+        <h2 className="font-semibold text-[1.25rem] text-gray-900 truncate">
           {task.name}
-        </h3>
+        </h2>
         {task.description && (
           <p className="text-gray-900 text-sm mt-1 line-clamp-2 pr-5">
             {task.description}

@@ -77,7 +77,7 @@ export default function Board() {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="w-full max-w-[552px] mx-auto pt-12 pb-12 px-4 sm:px-0">
+      <main className="w-full max-w-[552px] mx-auto pt-12 pb-12 px-4 sm:px-0">
         {/* Header */}
         <div className="mb-10">
           <div className="flex gap-4 items-center group">
@@ -141,7 +141,7 @@ export default function Board() {
             </span>
           </button>
         </div>
-      </div>
+      </main>
 
       <TaskModal
         isOpen={isModalOpen}
