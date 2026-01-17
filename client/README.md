@@ -70,13 +70,3 @@ The application uses environment variables for configuration.
     ```
 
 If `VITE_API_URL` is not set, it defaults to `http://localhost:4000/api`.
-
-## 🚀 Deployment to Netlify
-
-1.  Connect your GitHub repository to [Netlify](https://www.netlify.com/).
-2.  Configure the build settings:
-    - **Base directory**: `client`
-    - **Build command**: `npm run build`
-    - **Publish directory**: `dist`
-3.  Add the following **Environment Variables**:
-    - `VITE_API_URL`: The URL of your deployed backend (e.g., `https://my-task-board-api.onrender.com/api`).

@@ -3,6 +3,7 @@
 <div align="center">
   <p>A full-stack task management application built with the MERN stack.</p>
   <p><b>Solution for <a href="https://devchallenges.io/challenge/my-task-board-app">DevChallenges.io</a></b></p>
+  <p><b><a href="https://my-task-board-rimon.netlify.app/board/696c113623415bde80df8bf3">🔴 Live Demo</a></b></p>
 </div>
 
 ---
