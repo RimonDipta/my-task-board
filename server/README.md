@@ -64,6 +64,18 @@ nodemon index.js
 
 The server will start on the port defined in your `.env` file (default `4000`).
 
+## 🚀 Deployment to Render
+
+1.  Create a new **Web Service** on [Render](https://render.com).
+2.  Connect your GitHub repository.
+3.  Use the following settings:
+    - **Root Directory**: `server`
+    - **Build Command**: `npm install`
+    - **Start Command**: `node index.js`
+4.  Add the following **Environment Variables**:
+    - `MONGODB_URI`: Your production MongoDB connection string (e.g., from MongoDB Atlas).
+    - `PORT`: `4000` (or leave default, Render sets this automatically, but good to be explicit/aware).
+
 ## 📡 API Endpoints
 
 ### Boards
